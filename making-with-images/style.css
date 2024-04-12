@@ -3,6 +3,7 @@
 body{
     margin: 0;
     padding: 0;
+    background-color:greenyellow;
 }
 
 div.page {
@@ -10,7 +11,6 @@ div.page {
     background-size:100%;
     background-attachment: fixed;
     background-color:greenyellow;
-    background-image:url('side_green_hair_troll_doll.png')
 }
 
 div.page.a {
@@ -52,17 +52,18 @@ img{
 }
 
 div.item.a {
-    width: 50x;
+    width: 100x;
 }
 
 
 div.item.b {
-    width: 100px;
+    width: 50x;
 }
 
 
 div.item.c {
-    width: 70px;
+    width:200px;
+    
 }
 
 div.item.x {
