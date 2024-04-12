@@ -85,26 +85,27 @@ div.bridge.c{
     
 }
 
-div.troll.x{
-   opacity:50;
+div.goat.x{
+   width:100%;
 }
 
-div.troll.y{
- opacity:100%;
+div.goat.y{
+    width:20px;
 }
 
-div.troll.z{
+div.goat.z{
 
 }
 
-div.big.one{
-    width:100%
+div.troll.one{
+    margin-right:auto;
 }
 
-div.big.two{
-    width:10%;
+div.troll.two{
+    margin-left:auto;
+    margin-right:auto;
 }
 
-div.big.three{
-
+div.troll.three{
+    
 }
