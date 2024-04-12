@@ -99,7 +99,6 @@ div.info{
 
 div.info.a{
     color:red;
-    font-size:200px;
     
 }
 
@@ -109,6 +108,18 @@ div.info.b{
 }
 
 div.info.c{
+
+}
+
+div.info.x{
+    font-size:200px;
+}
+
+div.info.y{
+    font-size:100px;
+}
+
+div.info.z{
 
 }
 
@@ -126,6 +137,19 @@ div.troll.three{
     
 }
 
+div.troll.a{
+    font-size:90px;
+}
+
+div.troll.b{
+    font-size:60px;
+}
+
+div.troll.x{
+
+}
+
+
 
 
 div.font.a{
@@ -141,13 +165,14 @@ div.font.c{
 }
 
 div.font.x{
-    font-size:80px;
+    font-size:100px;
 }
 
 div.font.y{
-    font-size:40px;
+    font-size:80px;
 }
 
 div.font.z{
-    font-size:20px;
+    font-size:60px;
 }
+
