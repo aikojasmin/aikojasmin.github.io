@@ -1,0 +1,110 @@
+
+
+body{
+    background-color:white;
+    background-repeat:no-repeat;
+    background-size:100%;
+    background-attachment: fixed;
+    background-color:greenyellow;
+    background-image:url('side_green_hair_troll_doll.png')
+}
+
+
+img{
+    width:100%;
+}
+
+div.emo{
+    width:50px;
+}
+
+div.five{
+    width:50px;
+}
+
+div.white{
+    width:50px;
+}
+
+div.green{
+    width:600px;
+    margin-left:auto;
+    margin-right:auto;
+   
+}
+
+div.coin{
+    width:400px;
+    float:left;
+}   
+
+div.bikini{
+    width:400px;
+    margin-left:70%;
+    padding-top:0%;
+   
+  
+}
+
+div.purple{
+    width:800px;
+    margin-left:50%;
+    padding-top:0%;
+    float:left;
+    
+}
+
+div.sydney{
+    width:200px;
+    margin-left:10%;
+    margin-top:50px;
+    margin-bottom:40px;
+}
+
+div.westgate{
+    width:200px;
+    margin-left:10%;
+    margin-bottom:40px;
+}
+
+div.golden{
+    width:200px;
+    margin-left:10%;
+}
+
+div.bridge.a{
+    margin-left:auto;
+    margin-right:left;
+}
+
+div.bidge.b{
+    margin-left:auto;
+}
+
+div.bridge.c{
+    
+}
+
+div.troll.x{
+   opacity:50;
+}
+
+div.troll.y{
+ opacity:100%;
+}
+
+div.troll.z{
+
+}
+
+div.big.one{
+    width:100%
+}
+
+div.big.two{
+    width:10%;
+}
+
+div.big.three{
+
+}

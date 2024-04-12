@@ -1,0 +1,58 @@
+body {
+    background-color:lime;
+    background-image:url('icons.jpeg');
+    background-repeat:repeat;
+    background-size:100px;
+    background-position:center;
+    background-attachment:fixed;
+}
+
+img{
+    width:100%;
+}
+
+div.random{
+    transition:0.2s;
+}
+
+div.item{
+
+}
+
+div.item.a{
+    width:25%;
+}
+
+div.item.b{
+    width:50%;
+}
+
+div.item.c{
+    width:90%;
+}
+
+div.item.one{
+    box-shadow:20px 20px 20px black;
+}
+
+div.item.two{
+    box-shadow:50px -20px 20px black;
+}
+
+div.item.three{
+  box-shadow:100px 10px 20px black;
+}
+    
+
+div.item.x{
+          margin-left:auto;
+}
+
+div.item.y{
+    margin-left:auto;
+    margin-right:auto;
+}
+
+div.item.z{
+
+}

@@ -1,0 +1,129 @@
+@font-face{
+    font-family:'anthony';
+    src:url('anthony.woff');
+}
+
+@font-face{
+    font-family:
+}
+
+body{
+    background-color:#2f00ff;
+}
+
+div.tab{
+    width: 50%;
+    margin-left:auto;
+    margin-right:auto;
+    font-size:200px;
+    text-align:center;
+    background-color:yellow;
+    font-family:Helvetica, sans-serif;
+    font-weight:bold;
+}
+
+div.intro{
+    display:flex;
+    flex-wrap:wrap;
+    margin-top:100px;
+}
+
+div.tab.a{
+    background-color:yellow;
+
+}
+
+div.tab.b{
+    background-color:cyan;
+}
+
+div.tab.c{
+    background-color:magenta;
+
+}
+
+div.introcol{
+    width:50%;
+    font-family: helvetica, sans-serif;
+    font-weight:bold;
+    font-size:18px;
+
+}
+div.main{
+    display:flex;
+    flex-wrap:wrap;
+}
+
+div.headline{
+    font-family:'anthony'
+
+}
+
+div.headline.a{
+    font-size:400px;
+    
+}
+
+div.headline.b{
+    font-size:200px;
+
+}
+
+div.headline.c{
+    font-size:100px
+
+}
+
+div.headline.one{
+    background-color:black;
+}
+
+div.headline.two{
+    background-color:white;
+
+}
+
+div.headline.three{
+    background-color:#00b140;
+}
+
+div.headline.x{
+    color:white;
+}
+
+div.headline.y{
+    color:black;
+}
+
+div.headline.z{
+    color:black;
+}
+
+div.random{
+    transition:1s;
+}
+
+div.footer{
+display:flex;
+flex-wrap:flex;
+margin-bottom:100px;
+}
+
+div.footercol{
+    width:25%;
+    font-size:32px;
+    font-family:Helvetica, sans-serif;
+    font-weight:bold;
+}
+
+div.tab{
+    width: 60%;
+    margin-left:auto;
+    margin-right:auto;
+    font-size:200px;
+    text-align:center;
+    background-color:yellow;
+    font-family:Helvetica, sans-serif;
+    font-weight:bold;
+    
+}
