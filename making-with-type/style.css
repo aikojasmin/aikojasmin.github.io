@@ -181,13 +181,25 @@ div.linkt{
     font-family:'Courier New'; 
 }
 
-div.linkt.a{
-    color:lime;;
+
+div.linkt.x{
+   text-align:end;
+}
+
+div.link.y{
+    text-align:center;
+}
+
+div.linkt.z{
+
+}
+
+div.link.a{
+    font-size:50px;
 }
 
 div.linkt.b{
-    color:red;
-
+    font-size:100px;
 }
 
 div.linkt.c{

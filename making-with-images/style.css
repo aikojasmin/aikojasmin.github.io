@@ -20,11 +20,16 @@ div.page.a {
 }
 
 div.page.b {
-    background-repeat:no-repeat;
+    background-repeat:repeat;
+    background-attachment:scroll;
+    background-size:50px;
 
 }
 
 div.page.c {
+    background-repeat:repeat;
+    background-attachment:scroll;
+    background-size:25px;
 
 }
 
@@ -47,7 +52,7 @@ img{
 }
 
 div.item.a {
-    width: 200px;
+    width: 50x;
 }
 
 
@@ -57,7 +62,7 @@ div.item.b {
 
 
 div.item.c {
-    width: 150px;
+    width: 70px;
 }
 
 div.item.x {
@@ -72,19 +77,6 @@ div.item.z {
     margin-left: auto;
     margin-right: auto;
 }
-
-div.item.one {
-    opacity:0%;
-}
-
-div.item.two {
-    opacity:100%;
-}
-
-div.item.three {
-    
-}
-
 
 
 div.container {
