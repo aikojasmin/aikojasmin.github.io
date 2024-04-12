@@ -26,13 +26,26 @@
 
 
 body{
+   margin: 0; 
+   padding: 0;
+}
+
+div.page.a {
     background-color:yellow;
+}
+
+div.page.b {
+    background-color:greenyellow;
+}
+
+div.page.c {
+    background-color:blue;
 }
 
 div.troll{
     color:red;
     font-family:flora;
-    font-size:60px;
+    font-size:80px;
     font-weight:bold;
     width:60%;
     text-align:center;
@@ -100,12 +113,12 @@ div.info.c{
 }
 
 div.troll.one{
-    opacity:0%;
+    visibility:hidden;
    
 }
 
 div.troll.two{
-    opacity:100%;
+    visibility:visible;
    
 }
 
@@ -113,16 +126,28 @@ div.troll.three{
     
 }
 
-div.font.x{
+
+
+div.font.a{
     font-family:dirt;
+}
+
+div.font.b{
+    font-family:blackside;
+}
+
+div.font.c{
+    font-family:'canterbury';
+}
+
+div.font.x{
     font-size:80px;
 }
 
 div.font.y{
- 
+    font-size:40px;
 }
 
 div.font.z{
-    font-family:blackside;
-    font-size:80px;
+    font-size:20px;
 }

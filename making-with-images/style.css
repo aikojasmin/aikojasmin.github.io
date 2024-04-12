@@ -1,7 +1,11 @@
 
 
 body{
-    background-color:white;
+    margin: 0;
+    padding: 0;
+}
+
+div.page {
     background-repeat:no-repeat;
     background-size:100%;
     background-attachment: fixed;
@@ -9,103 +13,81 @@ body{
     background-image:url('side_green_hair_troll_doll.png')
 }
 
+div.page.a {
+    background-repeat:repeat;
+    background-attachment:scroll;
+    background-size: 100px;
+}
+
+div.page.b {
+    background-repeat:no-repeat;
+
+}
+
+div.page.c {
+
+}
+
+div.page.x {
+    background-image:url('norwegian_trolls.png')
+}
+
+div.page.y {
+    background-image:url('rialto_bridge.jpg')
+}
+
+
+div.page.z {
+    background-image:url('troll_hulk_bridge.jpg')
+}
+
 
 img{
     width:100%;
 }
 
-div.emo{
-    width:50px;
+div.item.a {
+    width: 700px;
 }
 
-div.five{
-    width:50px;
+
+div.item.b {
+    width: 400px;
 }
 
-div.white{
-    width:50px;
+
+div.item.c {
+    width: 150px;
 }
 
-div.green{
-    width:600px;
-    margin-left:auto;
-    margin-right:auto;
-   
+div.item.x {
+    margin-left: auto;
 }
 
-div.coin{
-    width:400px;
-    float:left;
-}   
-
-div.bikini{
-    width:400px;
-    margin-left:70%;
-    padding-top:0%;
-   
-  
+div.item.y {
+    margin-right: auto;
 }
 
-div.purple{
-    width:800px;
-    margin-left:50%;
-    padding-top:0%;
-    float:left;
+div.item.z {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.item.one {
+    opacity:0%;
+}
+
+div.item.two {
+    opacity:100%;
+}
+
+div.item.three {
     
 }
 
-div.sydney{
-    width:200px;
-    margin-left:10%;
-    margin-top:50px;
-    margin-bottom:40px;
-}
 
-div.westgate{
-    width:200px;
-    margin-left:10%;
-    margin-bottom:40px;
-}
 
-div.golden{
-    width:200px;
-    margin-left:10%;
-}
-
-div.bridge.a{
-    margin-left:auto;
-    margin-right:left;
-}
-
-div.bidge.b{
-    margin-left:auto;
-}
-
-div.bridge.c{
-    
-}
-
-div.goat.x{
-   width:100%;
-}
-
-div.goat.y{
-    width:20px;
-}
-
-div.goat.z{
-
-}
-
-div.troll.one{
-    margin-right:auto;
-}
-
-div.troll.two{
-    margin-left:auto;
-    margin-right:auto;
-}
-
-div.troll.three{
-    
+div.container {
+    display:flex;
+    flex-wrap:wrap;
 }
