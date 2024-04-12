@@ -177,3 +177,19 @@ div.font.z{
     font-size:60px;
 }
 
+div.linkt{
+    font-family:'Courier New'; 
+}
+
+div.linkt.a{
+    color:lime;;
+}
+
+div.linkt.b{
+    color:red;
+
+}
+
+div.linkt.c{
+    
+}
