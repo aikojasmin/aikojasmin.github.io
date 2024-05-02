@@ -13,7 +13,7 @@ iframe {
     left:0px;
     z-index: 2;
     /* mix-blend-mode: multiply; */
-    filter: grayscale();
+    filter: ;
     /* border-radius:100%; */
 }
 
