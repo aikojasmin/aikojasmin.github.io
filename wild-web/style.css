@@ -1,108 +1,101 @@
-/* setup */
+@font-face{
+    font-family:'kapakana';
+    src:url('Kapakana[wght].woff')
+}
 
-body{
-    background-color:black;
-    color:white;
+@font-face{
+    font-family:'manuskript';
+    src:url('Manuskript\ Gothisch\ UNZ1A.woff')
+}
+
+@font-face{
+    font-family:'digi';
+    src:url('digital-7\ \(italic\).woff')
+}
+
+
+body {
     margin:0px;
-    padding:0px;
-    font-size:20px;
-    line-height:21px;
-}
-
-div{
+    background: radial-gradient(circle, rgba(217,217,217,1) 15%, rgba(235,255,0,1) 81%);
+  }
+  
+  div {
     box-sizing:border-box;
-}
+  }
+  
+  div.container {
+    display:flex;
+    flex-wrap:wrap;
+  }
 
-img{
-    width:100%;
-}
+  
+  
+  div.sidebar {
+    padding:10px;
+    height:100vh;
+    overflow:scroll;
+    background: #FF004D;
 
-/* typography */
+  }
+  
+  div.fontlarge {
+    font-size:70px;
+    
+  }
 
-div.largetext{
-    font-size:100px;
-    line-height:90px;
-}
+  div.fontmedium{ 
+    font-size: 40px;
+  }
 
-div.mediumtext{
-    font-size:50px;
-    line-height:50px;
-}
+  div.fontsmallmedium{
+    font-size:20px;
+  }
 
-div.smalltext{
-    font-size:16px;
-    line-height:18px;
-}
+  div.fontsmall{
+    font-size:10px;
+  }
 
-div.serif{
-    font-family:'Times New Roman', Times, serif;
-}
+  div.digi{
+    font-family:'digi';
+  }
+  
+  div.manuskript{
+    font-family:'manuskript';
+  }
 
-div.sans{
-    font-family:Arial, Helvetica, sans-serif;
-}
+  div.textalign{
+    text-align: center;
+  }
+  
+  div.width20 {
+    width: 20%;
+  }
+  
+  div.width33 {
+    width: 33.33%;
+  }
+  
+  div.width80 {
+    width: 80%;
+  }
+ 
+  
+  
+  div.sidebar {
+    padding:10px;
+    height:100vh;
+    overflow:scroll;
+  }
+  
+  
+  div.gravestone {
+    width: calc(33.33% - 40px);
+    height:400px;
+    overflow:scroll;
+    margin:20px;
+    padding:20px;
+    background:#444444;
+    border-radius: 40px 40px 0px 0px;
+  }
 
-div.mono{
-    font-family:'Courier New', Courier, monospace;
-}
 
-/* colours */
-
-div.textblue{
-    color:blue;
-}
-
-div.textgray{
-    color:gray;
-
-}
-
-div.bgred{
-    background-color:red;
-}
-
-div.bgwhite{
-    background-color: white;
-}
-
-/* widths */
-
-div.w100{
-    width:100%;
-}
-
-div.w80{
-    width:80%;
-}
-
-div.w75{
-    width:75%;
-}
-
-div.w66{
-    width:66.666%;
-}
-
-div.w60{
-    width:60%;
-}
-
-div.w50{
-    width:50%;
-}
-
-div.w40{
-    width:40%;
-}
-
-div.w33{
-    width:33.333%;
-}
-
-div.w25{
-    width:25%;
-}
-
-div.w20{
-    width:20%;
-}
