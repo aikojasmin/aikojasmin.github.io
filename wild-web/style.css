@@ -52,7 +52,7 @@ body {
   }
 
   div.fontsmall{
-    font-size:10px;
+    font-size:12px;
   }
 
   div.digi{
@@ -83,7 +83,7 @@ body {
   
   div.sidebar {
     padding:10px;
-    height:100vh;
+    height:120vh;
     overflow:scroll;
   }
   
@@ -95,7 +95,7 @@ body {
     margin:20px;
     padding:20px;
     background:#444444;
-    border-radius: 40px 40px 0px 0px;
+    border-radius: 90px 90px 0px 0px;
   }
 
 
