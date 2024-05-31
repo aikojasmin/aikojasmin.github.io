@@ -43,7 +43,8 @@ body {
     height:100vh;
     overflow-x:scroll;
     overflow-y:hidden;
-    background: silver;
+    background: black;
+    color:red;
     border:5px groove;
     border-color:slategray;
     position: fixed;
@@ -57,16 +58,24 @@ body {
   }
    
     div.sidebar::-webkit-scrollbar-track {
-     border: 50px groove red;
+     border: 50px groove gray;
   }
    
     div.sidebar::-webkit-scrollbar-thumb {
-    background-color: red;
+    background-color: gray;
     outline: 4px slategray;
+  }
+
+  div.kapa {
+    font-family:'kapakana';
+  }
+
+  div.fontxlarge{
+    font-size: 60px;
   }
   
   div.fontlarge {
-    font-size:70px;
+    font-size:50px;
   }
 
   div.fontmedium{ 
@@ -124,9 +133,15 @@ body {
     overflow:scroll;
     margin:20px;
     padding:20px;
-    background:dimgray;
+    background:#848484;
     border-radius: 90px 90px 0px 0px;
-    border:2px groove;
+    border:10px groove;
+  }
+
+  div.logograve{
+    width:100px;
+    margin-left:auto;
+    margin-right:auto;
   }
 
   img{
