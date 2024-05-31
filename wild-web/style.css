@@ -15,8 +15,9 @@
 
 
 body {
-    margin:0px;
-    background: radial-gradient(circle, rgba(217,217,217,1) 15%, rgba(235,255,0,1) 81%);
+    background-size:20%;
+    background-image:url('cloud-background.jpg');
+    background-repeat:repeat;
   }
   
   div {
@@ -26,21 +27,46 @@ body {
   div.container {
     display:flex;
     flex-wrap:wrap;
+
   }
+
+
+  div.spacearound {
+    justify-content: space-between;
+  }
+  
 
   
   
   div.sidebar {
     padding:10px;
     height:100vh;
-    overflow:scroll;
-    background: #FF004D;
+    overflow-x:scroll;
+    overflow-y:hidden;
+    background: silver;
+    border:5px groove;
+    border-color:slategray;
+    position: fixed;
+    top:0;
+    left:0;
 
+  }
+
+    div.sidebar::-webkit-scrollbar {
+    width:40px;
+  }
+   
+    div.sidebar::-webkit-scrollbar-track {
+     border: 50px groove red;
+  }
+   
+    div.sidebar::-webkit-scrollbar-thumb {
+    background-color: red;
+    outline: 4px slategray;
   }
   
   div.fontlarge {
     font-size:70px;
-    
   }
 
   div.fontmedium{ 
@@ -49,10 +75,11 @@ body {
 
   div.fontsmallmedium{
     font-size:20px;
+    color:white;
   }
 
   div.fontsmall{
-    font-size:12px;
+    font-size:15px;
   }
 
   div.digi{
@@ -74,12 +101,15 @@ body {
   div.width33 {
     width: 33.33%;
   }
+
+  div.width100 {
+    width: 100%;
+  }
+    
   
   div.width80 {
     width: 80%;
   }
- 
-  
   
   div.sidebar {
     padding:10px;
@@ -90,12 +120,118 @@ body {
   
   div.gravestone {
     width: calc(33.33% - 40px);
-    height:400px;
+    height:30vw;
     overflow:scroll;
     margin:20px;
     padding:20px;
-    background:#444444;
+    background:dimgray;
     border-radius: 90px 90px 0px 0px;
+    border:2px groove;
   }
+
+  img{
+    width:100%;
+  }
+
+  div.title{
+    margin-right:auto;
+    margin-left:auto;
+    width:75%;
+  }  
+
+
+  div.boo1 {
+    position: fixed;
+    z-index: 2;
+    top:300px;
+    left:400px;
+    width: 600px;
+    font-family:'kapakana';
+    font-size:50px;
+    mix-blend-mode: multiply; 
+    opacity: 0;    
+    animation: fade 2s linear 2s 1 ;
+  }
+
+  div.boo2 {
+    position: fixed;
+    z-index: 2;
+    top:300px;
+    right:20px;
+    width: 250px;
+    font-family:'kapakana';
+    font-size:50px;
+    mix-blend-mode: multiply; 
+    opacity: 0;    
+    animation: fade 2s linear 5s 1 ;
+  }
+
+  div.boo3{
+    position: fixed;
+    z-index: 2;
+    top:200px;
+    right:40px;
+    width: 250px;
+    font-family:'kapakana';
+    font-size:50px;
+    mix-blend-mode: multiply; 
+    opacity: 0;    
+    animation: fade 2s linear 8s 1 ;
+  }
+  
+  div.boo4 {
+    position: fixed;
+    z-index: 2;
+    top:200px;
+    right:40px;
+    width:50px;
+    font-family:'kapakana';
+    font-size:50px;
+    mix-blend-mode: multiply; 
+    opacity: 0;    
+    animation: fade 2s linear 9s 1 ;
+  }  
+
+  @keyframes fade {
+    0% {
+      opacity: 100;
+    }
+    50% {
+      opacity: 100;
+    }
+    80% {
+      opacity: 100;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+
+
+  div.gif1{
+    width:100px;
+  }
+
+  div.flower{
+    width:50px;
+    margin-bottom:20px;
+    margin-left:auto;
+    margin-right:auto;
+  }
+
+  div.mainside {
+    margin-left: 20%;
+  }
+
+
+  audio {
+    width:100%;
+    margin-top:0px;
+    margin-bottom:20px;
+    border-radius:0px !important;
+    mix-blend-mode:difference;
+    
+  }
+    
 
 
