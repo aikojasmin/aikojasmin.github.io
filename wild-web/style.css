@@ -44,7 +44,7 @@ body {
     overflow-x:scroll;
     overflow-y:hidden;
     background: black;
-    color:red;
+    color: red;
     border:5px groove;
     border-color:slategray;
     position: fixed;
@@ -153,74 +153,6 @@ body {
     margin-left:auto;
     width:75%;
   }  
-
-
-  div.boo1 {
-    position: fixed;
-    z-index: 2;
-    top:300px;
-    left:400px;
-    width: 600px;
-    font-family:'kapakana';
-    font-size:50px;
-    mix-blend-mode: multiply; 
-    opacity: 0;    
-    animation: fade 2s linear 2s 1 ;
-  }
-
-  div.boo2 {
-    position: fixed;
-    z-index: 2;
-    top:300px;
-    right:20px;
-    width: 250px;
-    font-family:'kapakana';
-    font-size:50px;
-    mix-blend-mode: multiply; 
-    opacity: 0;    
-    animation: fade 2s linear 5s 1 ;
-  }
-
-  div.boo3{
-    position: fixed;
-    z-index: 2;
-    top:200px;
-    right:40px;
-    width: 250px;
-    font-family:'kapakana';
-    font-size:50px;
-    mix-blend-mode: multiply; 
-    opacity: 0;    
-    animation: fade 2s linear 8s 1 ;
-  }
-  
-  div.boo4 {
-    position: fixed;
-    z-index: 2;
-    top:200px;
-    right:40px;
-    width:50px;
-    font-family:'kapakana';
-    font-size:50px;
-    mix-blend-mode: multiply; 
-    opacity: 0;    
-    animation: fade 2s linear 9s 1 ;
-  }  
-
-  @keyframes fade {
-    0% {
-      opacity: 100;
-    }
-    50% {
-      opacity: 100;
-    }
-    80% {
-      opacity: 100;
-    }
-    100% {
-      opacity: 0;
-    }
-  }
 
 
   div.gif1{
